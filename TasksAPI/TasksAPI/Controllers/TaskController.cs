@@ -54,5 +54,38 @@ namespace TasksAPI.Controllers
 
             return CreatedAtAction(nameof(GetTaskItem), new { taskID = item.taskID }, item);
         }
+
+        // PUT: api/task/1
+        // put requires the whole request, whereas patch can be just a segment 
+        [HttpPut("{taskID}")]
+        public async Task<IActionResult> PutTaskItem(long taskID, TaskItem item)
+        {
+            if (taskID != item.taskID)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(item).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // DELETE: api/Task/1
+        [HttpDelete("{taskID}")]
+        public async Task<IActionResult> DeleteTaskItem(long taskID)
+        {
+            var taskItem = await _context.TaskItems.FindAsync(taskID);
+
+            if (taskItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.TaskItems.Remove(taskItem);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
