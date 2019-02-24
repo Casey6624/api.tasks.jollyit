@@ -1,0 +1,14 @@
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\bin\Debug\netcoreapp2.2\TasksAPI.deps.json
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\bin\Debug\netcoreapp2.2\TasksAPI.runtimeconfig.json
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\bin\Debug\netcoreapp2.2\TasksAPI.runtimeconfig.dev.json
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\bin\Debug\netcoreapp2.2\TasksAPI.dll
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\bin\Debug\netcoreapp2.2\TasksAPI.pdb
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.csprojAssemblyReference.cache
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.csproj.CoreCompileInputs.cache
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.RazorAssemblyInfo.cache
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.RazorAssemblyInfo.cs
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.AssemblyInfoInputs.cache
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.AssemblyInfo.cs
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.RazorTargetAssemblyInfo.cache
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.dll
+D:\.Net Projects\com.tasks.jollyit\TasksAPI\TasksAPI\obj\Debug\netcoreapp2.2\TasksAPI.pdb
